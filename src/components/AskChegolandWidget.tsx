@@ -44,7 +44,7 @@ export function AskChegolandWidget() {
         ]
       : [
           'What milk sizes are in stock right now?',
-          'Why is pasture-fed ghee & mala healthy?',
+          'Why is traditional Kenyan mala & ghee healthy?',
           'When do you deliver around Kaplong, Sotik & Nairobi?',
         ];
 

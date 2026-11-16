@@ -625,7 +625,7 @@ async function startServer(): Promise<void> {
       ageYears: Math.max(1, Number(ageYears || 3)),
       status: status || 'Lactating',
       dailyLitresAvg: Math.max(0, Number(dailyLitresAvg || 0)),
-      photo: photo?.trim() || '/src/assets/images/cow_friesian_portrait_1794817658243.jpg',
+      photo: photo?.trim() || '/src/assets/images/cow_friesian_zerograzed_1794821932972.jpg',
       bio: (bio || '').trim(),
     };
 

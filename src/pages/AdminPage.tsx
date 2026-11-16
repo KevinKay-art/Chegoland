@@ -41,16 +41,16 @@ const TOKEN_STORAGE_KEY = 'chegoland_admin_token_v1';
 
 const COW_PHOTO_PRESETS = [
   {
-    label: 'Friesian Portrait',
-    url: '/src/assets/images/cow_friesian_portrait_1794817658243.jpg',
+    label: 'Friesian (Zero-Grazed)',
+    url: '/src/assets/images/cow_friesian_zerograzed_1794821932972.jpg',
   },
   {
-    label: 'Ayrshire Portrait',
-    url: '/src/assets/images/cow_ayrshire_portrait_1794817658460.jpg',
+    label: 'Ayrshire (Zero-Grazed)',
+    url: '/src/assets/images/cow_ayrshire_zerograzed_1794821933642.jpg',
   },
   {
-    label: 'Jersey Portrait',
-    url: '/src/assets/images/cow_jersey_portrait_1794817659529.jpg',
+    label: 'Jersey (Zero-Grazed)',
+    url: '/src/assets/images/cow_jersey_zerograzed_1794821935243.jpg',
   },
 ];
 
@@ -60,7 +60,11 @@ const PRODUCT_PHOTO_PRESETS = [
     url: '/src/assets/images/product_fresh_milk_1794817659179.jpg',
   },
   {
-    label: 'Mala & Yoghurt Jars',
+    label: 'Kenyan Traditional Mala',
+    url: '/src/assets/images/product_kenyan_mala_1794821934885.jpg',
+  },
+  {
+    label: 'Natural Yoghurt',
     url: '/src/assets/images/product_mala_yoghurt_1794817659247.jpg',
   },
   {
@@ -367,7 +371,7 @@ export function AdminPage() {
       descriptionSw: '',
       image: PRODUCT_PHOTO_PRESETS[0].url,
       featured: false,
-      nutritionHighlight: '100% pure pasture-raised dairy',
+      nutritionHighlight: '100% pure zero-grazed highland dairy',
     });
     setProductModalOpen(true);
   }

@@ -7,7 +7,7 @@ import { ProductCard } from '../components/ProductCard.tsx';
 import { useAppContext } from '../hooks/useAppContext.tsx';
 import type { Cow } from '../types/index.ts';
 
-const HERO_PASTURE_IMAGE = '/src/assets/images/hero_pasture_cows_1794817658643.jpg';
+const HERO_PASTURE_IMAGE = '/src/assets/images/hero_zerograzing_cows_1794821932714.jpg';
 
 const TESTIMONIALS = [
   {
@@ -64,7 +64,7 @@ export function HomePage() {
         <div className="absolute inset-0">
           <FarmImage
             src={HERO_PASTURE_IMAGE}
-            alt="Friesian and Ayrshire dairy cows grazing on green Chegoland pasture in Kapcholyo, Kaplong"
+            alt="Friesian and Ayrshire dairy cows in clean zero-grazing stalls eating fresh Napier grass at CHEGOLAND Agri-Empire LTD in Kapcholyo, Kaplong"
             eager
             className="w-full h-full object-cover object-center"
           />

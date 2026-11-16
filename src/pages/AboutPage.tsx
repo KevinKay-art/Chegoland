@@ -38,9 +38,9 @@ const HYGIENE_PRACTICES = [
       'Each morning batch undergoes lactometer specific-gravity checks and California Mastitis Testing before bottling or culturing into mala and yoghurt.',
   },
   {
-    title: 'Pasture-First Herd Nutrition',
+    title: 'Zero-Grazed Herd Nutrition',
     detail:
-      'Our cows graze rotational green paddocks supplemented with mineral licks, lucerne hay, and clean borehole water—never routine antibiotics.',
+      'Our cows are comfortably zero-grazed in clean, shaded, ventilated stalls and fed freshly chopped green Napier grass, lucerne hay, maize silage, mineral licks, and clean borehole water—never routine antibiotics.',
   },
 ];
 
@@ -63,10 +63,10 @@ export function AboutPage() {
             sat unchilled in transit.
           </p>
           <p className="mt-4 text-base text-[#5D4B41] leading-relaxed">
-            Today, our small-batch herd of Friesian, Ayrshire, and Jersey cows grazes open
-            highland pastures at 1,900 metres above sea level. We bottle, ferment, churn, and
-            deliver our entire harvest directly—keeping full traceability from cow tag to kitchen
-            doorstep.
+            Today, our small-batch herd of zero-grazed Friesian, Ayrshire, and Jersey cows lives
+            in clean, shaded dairy stalls at 1,900 metres above sea level—fed freshly cut Napier
+            grass, lucerne, and silage daily. We bottle, ferment, churn, and deliver our entire
+            harvest directly with full traceability from cow tag to kitchen doorstep.
           </p>
           <div className="mt-7">
             <Link
@@ -80,8 +80,8 @@ export function AboutPage() {
 
         <div className="lg:col-span-6 rounded-2xl overflow-hidden border border-[#E6DEC8] min-h-[320px]">
           <FarmImage
-            src="/src/assets/images/hero_pasture_cows_1794817658643.jpg"
-            alt="Chegoland dairy cows on highland green pasture at dawn"
+            src="/src/assets/images/hero_zerograzing_cows_1794821932714.jpg"
+            alt="CHEGOLAND Agri-Empire LTD zero-grazing dairy stalls with Friesian and Ayrshire cows eating fresh Napier grass"
             className="w-full h-full object-cover"
           />
         </div>

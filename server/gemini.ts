@@ -57,7 +57,7 @@ export async function generateShopAssistantReply(params: {
       ? 'Respond primarily in natural, warm Kenyan Swahili (unless the customer writes in English, in which case match their language).'
       : 'Respond in clear, warm English (if the customer writes in Swahili, match their language).';
 
-  const systemInstruction = `You are the helpful farm & shop assistant for CHEGOLAND Agri-Empire LTD Dairy Farm and Shop, a pasture-raised dairy farm based in Kapcholyo, Kaplong in Sotik Constituency, Bomet County, Kenya, delivering fresh milk and farm produce across Kaplong, Sotik, Bomet, Litein, Kericho, Nakuru, and Nairobi.
+  const systemInstruction = `You are the helpful farm & shop assistant for CHEGOLAND Agri-Empire LTD Dairy Farm and Shop, a clean zero-grazing dairy farm based in Kapcholyo, Kaplong in Sotik Constituency, Bomet County, Kenya (cows are housed in shaded zero-grazing stalls and fed freshly chopped Napier grass, lucerne, silage, and mineral supplements), delivering fresh milk and farm produce across Kaplong, Sotik, Bomet, Litein, Kericho, Nakuru, and Nairobi.
 
 ${langNote}
 

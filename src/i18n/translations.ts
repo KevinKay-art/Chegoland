@@ -164,14 +164,14 @@ export const TRANSLATIONS: Record<Language, TranslationBundle> = {
     home: {
       cowsHeading: 'Meet our cows',
       cowsSub:
-        'Every drop comes from our pasture-fed Friesian, Ayrshire, and Jersey herd raised on highland clover and clean spring water.',
+        'Every drop comes from our zero-grazed Friesian, Ayrshire, and Jersey herd kept in clean shaded stalls and fed freshly cut Napier grass, lucerne, and spring water.',
       dailyYieldLabel: 'L / day avg',
       featuredHeading: 'Fresh from the dairy room',
       featuredSub:
         'Harvested daily in small batches so your family enjoys rich cream, honest nutrition, and clean taste.',
       viewAllShop: 'View all products',
       whyHeading: 'Why families choose Chegoland',
-      whySub: 'Direct farm accountability from morning pasture to your kitchen doorstep.',
+      whySub: 'Direct farm accountability from our zero-grazing shed to your kitchen doorstep.',
       why1Title: 'Fresh daily',
       why1Desc:
         'Milked at dawn and dusk in Kapcholyo, Kaplong (Sotik Constituency), never stored in middleman depots or mixed with external bulk milk.',
@@ -253,7 +253,7 @@ export const TRANSLATIONS: Record<Language, TranslationBundle> = {
     },
     footer: {
       tagline:
-        'Highland pasture dairy farming in Kapcholyo, Kaplong (Sotik) and direct delivery across Bomet, Kericho & Nairobi.',
+        'Clean zero-grazing dairy farming in Kapcholyo, Kaplong (Sotik) and direct delivery across Bomet, Kericho & Nairobi.',
       quickLinks: 'Explore',
       contactTitle: 'Farm & Dispatch',
       hoursTitle: 'Milking & Delivery Hours',
@@ -298,14 +298,14 @@ export const TRANSLATIONS: Record<Language, TranslationBundle> = {
     home: {
       cowsHeading: 'Kutana na ng’ombe wetu',
       cowsSub:
-        'Kila tone linatoka kwa ng’ombe wetu wa Friesian, Ayrshire, na Jersey wanaolishwa nyasi za kijani na maji safi ya chemchemi.',
+        'Kila tone linatoka kwa ng’ombe wetu wa ufugaji wa ndani (zero-grazing) wa Friesian, Ayrshire, na Jersey wanaolishwa nyasi mbichi za Napier, luseni, na maji safi.',
       dailyYieldLabel: 'L / siku wastani',
       featuredHeading: 'Bidhaa mpya kutoka shambani',
       featuredSub:
         'Huandaliwa kila siku kwa viwango vidogo ili familia yako ifurahie ladha halisi na lishe bora.',
       viewAllShop: 'Tazama bidhaa zote',
       whyHeading: 'Kwa nini familia huchagua Chegoland',
-      whySub: 'Uwajibikaji wa moja kwa moja kutoka malishoni asubuhi hadi mlangoni pako.',
+      whySub: 'Uwajibikaji wa moja kwa moja kutoka banda safi la zero-grazing hadi mlangoni pako.',
       why1Title: 'Safi kila siku',
       why1Desc:
         'Hukamuliwa alfajiri na jioni huko Kapcholyo, Kaplong (Sotik), bila kuchanganywa na maziwa ya walanguzi.',
@@ -387,7 +387,7 @@ export const TRANSLATIONS: Record<Language, TranslationBundle> = {
     },
     footer: {
       tagline:
-        'Ufugaji bora wa ng’ombe wa maziwa huko Kapcholyo, Kaplong (Sotik) na usafirishaji wa moja kwa moja Bomet, Kericho na Nairobi.',
+        'Ufugaji bora wa zero-grazing huko Kapcholyo, Kaplong (Sotik) na usafirishaji wa moja kwa moja Bomet, Kericho na Nairobi.',
       quickLinks: 'Kurasa',
       contactTitle: 'Shamba na Usafirishaji',
       hoursTitle: 'Saa za Kukamua na Usafirishaji',

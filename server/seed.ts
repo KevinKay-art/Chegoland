@@ -21,11 +21,12 @@ function isoTimestampDaysAgo(daysAgo: number, hour = 8, minute = 30): string {
 }
 
 export const FARM_IMAGE_ASSETS = {
-  heroPasture: '/src/assets/images/hero_pasture_cows_1794817658643.jpg',
-  cowFriesian: '/src/assets/images/cow_friesian_portrait_1794817658243.jpg',
-  cowAyrshire: '/src/assets/images/cow_ayrshire_portrait_1794817658460.jpg',
-  cowJersey: '/src/assets/images/cow_jersey_portrait_1794817659529.jpg',
+  heroPasture: '/src/assets/images/hero_zerograzing_cows_1794821932714.jpg',
+  cowFriesian: '/src/assets/images/cow_friesian_zerograzed_1794821932972.jpg',
+  cowAyrshire: '/src/assets/images/cow_ayrshire_zerograzed_1794821933642.jpg',
+  cowJersey: '/src/assets/images/cow_jersey_zerograzed_1794821935243.jpg',
   freshMilk: '/src/assets/images/product_fresh_milk_1794817659179.jpg',
+  kenyanMala: '/src/assets/images/product_kenyan_mala_1794821934885.jpg',
   malaYoghurt: '/src/assets/images/product_mala_yoghurt_1794817659247.jpg',
   gheeButter: '/src/assets/images/product_ghee_butter_1794817659885.jpg',
   farmEggs: '/src/assets/images/product_farm_eggs_1794817660006.jpg',
@@ -94,10 +95,10 @@ export function createSeedDatabase(): ChegolandDatabase {
       stock: 28,
       lowStockThreshold: 8,
       description:
-        'Thick, tangy cultured lala milk fermented slowly in small stainless-steel vats for authentic Kenyan richness and gut-friendly probiotics.',
+        'Thick, tangy Kenyan fermented mala cultured slowly in small stainless-steel vats for authentic mursik-style richness, served fresh for ugali, greens, or daily drinking.',
       descriptionSw:
-        'Maziwa mala mazito yaliyochachushwa taratibu kwa ladha halisi ya Kikenya na probiotiki bora kwa tumbo.',
-      image: FARM_IMAGE_ASSETS.malaYoghurt,
+        'Maziwa mala mazito ya asili yaliyochachushwa taratibu kwa ladha halisi ya Kikenya na probiotiki bora kwa tumbo.',
+      image: FARM_IMAGE_ASSETS.kenyanMala,
       featured: true,
       nutritionHighlight: 'Live probiotic cultures · High digestibility · Great with ugali & greens',
     },
@@ -145,9 +146,9 @@ export function createSeedDatabase(): ChegolandDatabase {
       stock: 18,
       lowStockThreshold: 6,
       description:
-        'Slow-simmered golden cow ghee made from pasture-fed cream. Fragrant, shelf-stable, and rich in fat-soluble vitamins A, D, and K2.',
+        'Slow-simmered golden cow ghee made from cream of our zero-grazed Napier and lucerne-fed herd. Fragrant, shelf-stable, and rich in vitamins A, D, and K2.',
       descriptionSw:
-        'Samli safi ya dhahabu iliyopikwa polepole kutoka krimu ya ng’ombe wanaokula nyasi za kijani.',
+        'Samli safi ya dhahabu iliyopikwa polepole kutoka krimu ya ng’ombe wetu wanaolishwa nyasi za Napier na luseni zilizokatwa.',
       image: FARM_IMAGE_ASSETS.gheeButter,
       featured: true,
       nutritionHighlight: '100% pure clarified butterfat · Lactose-free · High smoke point',
@@ -162,12 +163,12 @@ export function createSeedDatabase(): ChegolandDatabase {
       stock: 21,
       lowStockThreshold: 6,
       description:
-        'Hand-churned, lightly salted golden butter from fresh pasture cream. Spreads smoothly on warm toast or mandazi.',
+        'Hand-churned, lightly salted golden butter from fresh highland cream. Spreads smoothly on warm toast or mandazi.',
       descriptionSw:
         'Siagi tamu ya manjano iliyotengenezwa kwa krimu halisi na chumvi kidogo.',
       image: FARM_IMAGE_ASSETS.gheeButter,
       featured: false,
-      nutritionHighlight: '82% butterfat · Natural beta-carotene from highland grass',
+      nutritionHighlight: '82% butterfat · Natural beta-carotene from fresh green Napier fodder',
     },
     {
       id: 'prod-eggs-30',
@@ -198,7 +199,7 @@ export function createSeedDatabase(): ChegolandDatabase {
       status: 'Lactating',
       dailyLitresAvg: 28.5,
       photo: FARM_IMAGE_ASSETS.cowFriesian,
-      bio: 'Lead morning milker from our highland Friesian line; loves lucerne hay and Napier grass.',
+      bio: 'Lead morning milker in our zero-grazing unit; thrives on chopped Napier grass, lucerne hay, and dairy meal.',
     },
     {
       id: 'cow-baraka',
@@ -209,7 +210,7 @@ export function createSeedDatabase(): ChegolandDatabase {
       status: 'Lactating',
       dailyLitresAvg: 24.0,
       photo: FARM_IMAGE_ASSETS.cowAyrshire,
-      bio: 'Steady South Rift Ayrshire known for balanced protein and effortless pasture grazing in Kapcholyo.',
+      bio: 'Steady South Rift Ayrshire in Cubicle 14 known for balanced protein and calm zero-grazing temperament.',
     },
     {
       id: 'cow-tamu',
@@ -220,7 +221,7 @@ export function createSeedDatabase(): ChegolandDatabase {
       status: 'Lactating',
       dailyLitresAvg: 19.5,
       photo: FARM_IMAGE_ASSETS.cowJersey,
-      bio: 'Produces our richest, high-butterfat cream used specifically for Chegoland Golden Ghee and butter.',
+      bio: 'Zero-grazed Jersey producing our richest high-butterfat cream for Chegoland Golden Ghee and butter.',
     },
     {
       id: 'cow-zawadi',
@@ -231,7 +232,7 @@ export function createSeedDatabase(): ChegolandDatabase {
       status: 'Lactating',
       dailyLitresAvg: 26.2,
       photo: FARM_IMAGE_ASSETS.cowFriesian,
-      bio: 'Calm matriarch of the morning parlour with consistent milk quality year-round.',
+      bio: 'Calm matriarch of the zero-grazing shed with consistent high-yield morning milk quality year-round.',
     },
     {
       id: 'cow-wema',
@@ -242,7 +243,7 @@ export function createSeedDatabase(): ChegolandDatabase {
       status: 'Dry',
       dailyLitresAvg: 0,
       photo: FARM_IMAGE_ASSETS.cowAyrshire,
-      bio: 'Currently on maternity dry-off rest in the lower clover paddock ahead of her next calf.',
+      bio: 'Currently on maternity dry-off rest in a quiet, clean-bedded zero-grazing stall ahead of her next calf.',
     },
   ];
 
