@@ -1,0 +1,6 @@
+{
+  "name": "Chegoland Dairy Farm & Shop",
+  "description": "Fresh Kenyan dairy farm products—whole milk, mala, yoghurt, ghee, butter, and farm eggs—delivered directly from pasture to table, with full farm and order management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
